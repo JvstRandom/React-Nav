@@ -10,7 +10,7 @@ class SplashScreen extends Component {
 
     componentDidMount() {
         setTimeout( () => {
-            this.props.navigation.dispatch(StackActions.replace('Detail'))
+            this.props.navigation.dispatch(StackActions.replace('Home'))
         }, 2000);
     }
 

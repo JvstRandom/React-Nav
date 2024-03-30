@@ -11,7 +11,7 @@ class Home extends Component {
         return (
             <View>
                 <Text>HAIIIII</Text>
-                <TouchableOpacity onPress={ () => ToastAndroid.show( ' diklik', ToastAndroid.SHORT)}>
+                <TouchableOpacity onPress={ () => this.props.navigation.navigate('Detail')}>
                     <Text>Pindah screen ke detail</Text>
                 </TouchableOpacity>
             </View>
